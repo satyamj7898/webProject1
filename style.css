@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex   ;
+    width: 100%;
+    height: 100%;
+    background-color: red;                                                  
+
+}
+#linediv{
+    position:absolute;
+    top:73%;
+    left: 50%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: ; */
+    width: 100%;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    border-top:  .3px solid rgb(185, 131, 131)  ;
+    border-bottom: .3px solid rgb(168, 117, 117);
+    /* letter-spacing: 2px;/ */
+    /* white-space: normal; */
+
+}
+#linediv #a1{
+    position: absolute;
+    top:12px;
+    left:5%;
+    font-size: 9px;
+    font-weight: 100;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: rgb(196, 183, 183);
+    
+
+}
+#linediv #a2{
+    position: absolute;
+
+    top: 12px;
+     right: 6%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    font-size: 9px;
+    color:rgb(194, 182, 182);
+
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+    background-color:rgb(19, 18, 18);
+}
+#left #lup{
+    position: absolute;
+    top: 9%;
+    left: 5.25%;
+    font-family:cursive;
+    font-size: 8px;
+    font-style:cursive;
+    font-weight: 999999px;
+    letter-spacing: 3px ;
+    color : white;
+}
+#text{
+    position: absolute;
+    top: 13%;
+    left:5%;
+    font-family:Hursheys ;
+    font-weight: 500px;
+    font-size: 140px;
+    font-style:normal;
+    letter-spacing: 8px;
+    color: white;
+}
+
+#left #text1{
+    position:absolute;
+    top: 88%;
+    /* bottom: 15%; */
+    left: 8%;
+    width: 100px;
+    height: 100px;
+    font-family:fantasy;
+    font-size: 25px;
+    font-weight: 100px;
+    letter-spacing: 10px;
+    color: white;
+    
+}
+#left #ohk{
+    position: absolute;
+    top: -20%;
+    left: 5%;
+    /* width: 100px; */
+    /* height: 100px; */
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: 500px;
+    letter-spacing: 0px;
+    color: rgba(156, 146, 146, 0.349);
+}
+
+
+
+#center{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1515138692129-197a2c608cfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW58ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#center #hello1{
+    position: absolute;
+    bottom: 3%;
+    left: 32%;
+    font-size: 34px;
+    font-family: Hursheys;
+    font-weight: 700px;
+    color:white;
+    letter-spacing: 4px;
+}
+
+#center #hello2{
+    position:absolute;
+    bottom: 10.5%;
+    left: 28.5%;
+    width: 100px;
+    height: 80px;
+    font-weight: 900px;
+    font-size: 40px;
+    font-family:monospace;
+    color:white;
+}
+
+#center #circle{
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    top: 20%;
+    left: 68%;
+    border-radius: 50%;
+    background-color: rgba(27, 26, 26, 0.342);
+
+}
+#center #circle h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: 700;
+    font-family:fantasy;
+    letter-spacing: 8px;
+    color: rgba(148, 129, 129, 0.842);
+}
+#right{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+
+}
+#right #rup{
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    color: white;
+    font-size: large;
+}
+
+#rtp{
+    width: 100%;
+    height: 80%;
+    background-image:url(https://images.unsplash.com/photo-1496440737103-cd596325d314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#rbtm{  
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+
+}
+#rbtm h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    font-family:fantasy;
+
+}
+#one h1{
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
+
+}
+
+#text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#text:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(141, 0, 0);
+    cursor: pointer;
+}
+
+#left #text1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(136, 136, 139);
+
+}
+#hello1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(190, 13, 13);
+    cursor: pointer;
+}
+
+#hello2:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+#rbtm:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(167, 4, 4);
+    background-color: black;
+}
+#center #circle:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(179, 0, 164);
+    cursor: pointer;   
+    /* box-shadow: 50px;    */
+    background-color: rgb(133, 133, 141);            
+}
+#right #rup:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+#main #linediv:hover{
+    color: transparent;
+    /* -webkit-text-stroke: 2px rgb(23, 12, 177); */
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    /* letter-spacing: 5px; */
+}
+#main #a1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(163, 55, 22, 0.445);
+    cursor: pointer;
+    letter-spacing: 10px;
+}
+#main #a2:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(31, 109, 57, 0.445);
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+
+#center #hello2:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(11, 138, 0, 0.445);
+    cursor: pointer;
+}
+#left #lup:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(32, 56, 136);
+    cursor: pointer;
+}
+#center:hover{
+    color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1642988670101-9646b199e869?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+#right #rtp:hover{
+    color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1642880384912-2cd8371979b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+#left:hover{
+    color: transparent;
+    background-image:url(https://images.unsplash.com/photo-1642840670004-73fdab5c9146?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
